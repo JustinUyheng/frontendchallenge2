@@ -36,12 +36,14 @@ nav {
 }
 
 .jumbotron {
-    background-image: url("images/2k-winter-sale-slider.jpg");
     min-height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     position: relative;
+}
+
+#featuredVideo {
+    position: fixed;
+    width: 100%;
+    min-height: 500px;
 }
 
 .jumbotron .container {
@@ -88,6 +90,10 @@ nav {
     top: 0;
     padding-top: 40px;
     margin-left: 300px;
+}
+
+.sidebar-promo {
+    width: 100%;
 }
 
 .sidebar div {
