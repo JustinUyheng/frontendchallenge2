@@ -36,24 +36,30 @@ nav {
 }
 
 .jumbotron {
-    
+    background-image: url("images/2k-winter-sale-slider.jpg");
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 
-.jumbotron-img {
-    width: 100vw;
+.jumbotron .container {
+    position: absolute;
+    margin: 30px;
+    margin-left: 540px;
+    width: auto;
 }
 
 .nav-small {
-    display: flex;
-    height: 36px;
-    width: 45vw;
-    position: relative;
-    margin-left: 520px;
+    height: 40px;
+    width: 50vw;
     background-color: #6394B5;
     opacity: 0.9;
 }
 
 .nav-small button {
+    padding: 12px;
     border-style: none;
     border-right: 1px solid #476B81;
     background-color:#6394B5;
