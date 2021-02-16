@@ -75,11 +75,18 @@ nav {
 }
 
 .nav-small input {
-    float: right;
     padding-left: 10px;
     background-color: #316281;
     color: #2D5976;
     font-style: italic;
+}
+
+.nav-small .space {
+    width: 490px;
+}
+
+.nav-small .search {
+    /* margin-left: 375px; */
 }
 
 .sidebar {
@@ -110,4 +117,13 @@ nav {
 .sidebar-items a {
     color: #60B6E8;
     text-decoration: none;
+}
+
+
+.main-content {
+    border: 1px solid red;
+    width: 900px;
+    height: 100%;
+    position: relative;
+    margin: auto;
 }
