@@ -85,14 +85,18 @@ nav {
     width: 490px;
 }
 
-.sidebar {
+.layout {
+    display: table;
+    width: 70%;
     height: 100%;
-    width: 200px;
-    position: relative;
-    left: 0;
-    top: 0;
+    margin: auto;
     padding-top: 40px;
-    margin-left: 300px;
+}
+
+.sidebar {
+    display: table-cell;
+    height: 50%;
+    width: 200px;    
 }
 
 .sidebar-promo {
@@ -118,8 +122,8 @@ nav {
 
 .main-content {
     border: 1px solid red;
-    width: 900px;
+    display: table-cell;
+    width: 85%;
     height: 100%;
-    position: relative;
     margin: auto;
 }
