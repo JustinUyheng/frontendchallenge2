@@ -1,0 +1,33 @@
+.underx-capsule-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.underx-capsule {
+    width: 229px;
+    background: linear-gradient( 
+        -45deg, 
+        rgba(64,121,153,1) 5%,rgba(42,62,89,1) 95%
+    );
+}
+
+.underx-capsule-img {
+    width: 221px;
+}
+
+.underx-capsule-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+.underx-capsule-price {
+    width: 48px;
+    padding: 0 6px;
+    border-radius: 1px;
+    background-color: rgba(20, 31, 44, 0.4);
+    color: #ACDBF5;
+}

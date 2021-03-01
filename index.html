@@ -4,55 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frontend Challenge #2</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="carousel.css">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/layout.css">
+    <link rel="stylesheet" href="/styles/header-nav.css">
+    <link rel="stylesheet" href="/styles/main-nav.css">
+    <link rel="stylesheet" href="/styles/sidebar.css">
+    <link rel="stylesheet" href="/styles/section.css">
+    <link rel="stylesheet" href="/styles/sections/browse-steam.css">
+    <link rel="stylesheet" href="/styles/sections/featured-and-recommended.css">
+    <link rel="stylesheet" href="/styles/sections/special-offers.css">
+    <link rel="stylesheet" href="/styles/sections/community-recommends.css">
+    <link rel="stylesheet" href="/styles/sections/popular-vr-games.css">
+    <link rel="stylesheet" href="/styles/sections/underx.css">
 </head>
 <body>
-    <div class="header">
-        <nav class="nav-big">
+    <div class="container">
+        <header>
             <img src="/images/logo.png" class="logo">
-            <a href="#" class="dropdown">Store</a>
-            <div class="dropdown-content">
-                <a href="#">Home</a>
-                <a href="#">Discovery Queue</a>
-                <a href="#">Wishlist</a>
-                <a href="#">Points Shop</a>
-                <a href="#">News</a>
-                <a href="#">Stats</a>
-            </div>
-            
-            <a href="#" class="dropdown">Community</a>
-            <div class="dropdown-content">
-                <a href="#">Home</a>
-                <a href="#">Discussions</a>
-                <a href="#">Workshop</a>
-                <a href="#">Market</a>
-                <a href="#">Broadcasts</a>
-            </div>
-
-            <a href="#">About</a>
-            <a href="#">Support</a>    
-        </nav>
-    </div> 
-    <div class="page-content">
-        <div class="jumbotron">
-            <video autoplay muted loop id="featuredVideo">
-                <source src="images/webm_page_bg_english.webm" type="video/webm">
-            </video>
-            <div class="container">
-                <nav class="nav-small">
-                    <button>Your Store</button>
-                    <button>Browse</button>
-                    <button>Points Shop</button>
-                    <button>News</button>
-                    <button>Steam Labs</button>
-                    <div class="space"></div>
-                    <input type="text" placeholder="search the store" class="search">
-                </nav>
-            </div>
-        </div>
-        <div class="layout">
-            <div class="sidebar">
+            <nav>
+                <a href="#" class="dropdown">Store</a>
+                <div class="dropdown-content">
+                    <a href="#">Home</a>
+                    <a href="#">Discovery Queue</a>
+                    <a href="#">Wishlist</a>
+                    <a href="#">Points Shop</a>
+                    <a href="#">News</a>
+                    <a href="#">Stats</a>
+                </div>
+                
+                <a href="#" class="dropdown">Community</a>
+                <div class="dropdown-content">
+                    <a href="#">Home</a>
+                    <a href="#">Discussions</a>
+                    <a href="#">Workshop</a>
+                    <a href="#">Market</a>
+                    <a href="#">Broadcasts</a>
+                </div>
+    
+                <a href="#">About</a>
+                <a href="#">Support</a>    
+            </nav>
+        </header>
+        <div class="item item-left">
+            <aside class="sidebar">
                 <img src="images/steamcards_promo_02.png" class="sidebar-promo">
                 <div class="sidebar-header">Gift Cards</div>
                 <div class="sidebar-items"><a href="#">Now Available on Steam</a></div>
@@ -87,123 +81,279 @@
                 <div class="sidebar-items"><a href="#">Simulation</a></div>
                 <div class="sidebar-items"><a href="#">Sports</a></div>
                 <div class="sidebar-items"><a href="#">Strategy</a></div>
-            </div>
-            <div class="main-content">
-                <section class="carousel" aria-label="Gallery">
-                    <ol class="carousel__viewport">
-                      <li id="carousel__slide1"
-                          tabindex="0"
-                          class="carousel__slide">
-                        <div class="carousel__snapper">
-                          <a href="#carousel__slide4"
-                             class="carousel__prev">Go to last slide</a>
-                          <a href="#carousel__slide2"
-                             class="carousel__next">Go to next slide</a>
-                        </div>
-                      </li>
-                      <li id="carousel__slide2"
-                          tabindex="0"
-                          class="carousel__slide">
-                        <div class="carousel__snapper"></div>
-                        <a href="#carousel__slide1"
-                           class="carousel__prev">Go to previous slide</a>
-                        <a href="#carousel__slide3"
-                           class="carousel__next">Go to next slide</a>
-                      </li>
-                      <li id="carousel__slide3"
-                          tabindex="0"
-                          class="carousel__slide">
-                        <div class="carousel__snapper"></div>
-                        <a href="#carousel__slide2"
-                           class="carousel__prev">Go to previous slide</a>
-                        <a href="#carousel__slide4"
-                           class="carousel__next">Go to next slide</a>
-                      </li>
-                      <li id="carousel__slide4"
-                          tabindex="0"
-                          class="carousel__slide">
-                        <div class="carousel__snapper"></div>
-                        <a href="#carousel__slide3"
-                           class="carousel__prev">Go to previous slide</a>
-                        <a href="#carousel__slide1"
-                           class="carousel__next">Go to first slide</a>
-                      </li>
-                    </ol>
-                    <aside class="carousel__navigation">
-                      <ol class="carousel__navigation-list">
-                        <li class="carousel__navigation-item">
-                          <a href="#carousel__slide1"
-                             class="carousel__navigation-button">Go to slide 1</a>
-                        </li>
-                        <li class="carousel__navigation-item">
-                          <a href="#carousel__slide2"
-                             class="carousel__navigation-button">Go to slide 2</a>
-                        </li>
-                        <li class="carousel__navigation-item">
-                          <a href="#carousel__slide3"
-                             class="carousel__navigation-button">Go to slide 3</a>
-                        </li>
-                        <li class="carousel__navigation-item">
-                          <a href="#carousel__slide4"
-                             class="carousel__navigation-button">Go to slide 4</a>
-                        </li>
-                      </ol>
-                    </aside>
-                </section>
-                <div class="cluster-1">
-                    <div>
-                        <h2 class="cluster-header">Featured and Recommended</h2>
-                    </div>
-                </div>
-                <div class="cluster-2">
-                    <div>
-                        <h2 class="cluster-header">Special Offers</h2>
-                    </div>
-                </div>
-                <div class="cluster-3">
-                    <div>
-                        <h2 class="cluster-header"></h2>
-                    </div>
-                </div>
-                <div class="cluster-4">
-                    <div class="button-cluster-container">
-                        <h2 class="cluster-header">Browse Steam</h2>
-                        <div class="button-cluster">
-                            <button class="button-big"><a>New Releases</a></button>
-                            <button class="button-big"><a>Specials</a></button>
-                            <button class="button-big"><a>Free Games</a></button>
-                            <button class="button-big"><a>By User Tags</a></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="cluster-5">
-                    <div>
-                        <h2 class="cluster-header">Popular VR Games</h2>
-                    </div>
-                </div>
-                <div class="cluster-6">
-                    <div>
-                        
-                    </div>
-                </div>
-                <div class="cluster-7">
-                    <div>
-                        <h2 class="cluster-header">Games Streaming Now</h2>
-                    </div>
-                </div>
-                <div class="cluster-8">
-                    <div>
-                        <h2 class="cluster-header">Under P400</h2>
-                    </div>
-                </div>
-                <div class="cluster-9">
-                    <div>
-                        <h2 class="cluster-header">Updates and Offers</h2>
-                    </div>
-                </div>
-            </div>
+            </aside>
         </div>
-        
+        <div class="item item-center">
+            <nav class="main-nav">
+                <div class="main-nav-buttons">
+                    <button>Your Store</button>
+                    <button>Browse</button>
+                    <button>Points Shop</button>
+                    <button>News</button>
+                    <button>Steam Labs</button>
+                </div>
+                <input type="text" placeholder="search the store" class="searchbar">
+            </nav>
+            <section class="featured-and-recommended">
+                <h2 class="section-header">Featured and Recommended</h2>
+                <div class="featured-and-recommended-grid">
+                    <div class="featured-main">
+                        <img src="images/featured/0.jpg" class="featured-main-img">
+                    </div>
+                    <div class="featured-sub">
+                        <div class="featured-sub-title">
+                            <div class="title-text">Valheim</div>
+                        </div>
+                        <div class="featured-sub-gallery">
+                            <img src="images/featured/1.jpg" class="gallery-img">
+                            <img src="images/featured/2.jpg" class="gallery-img">
+                        </div>
+                        <div class="featured-sub-gallery">
+                            <img src="images/featured/3.jpg" class="gallery-img">
+                            <img src="images/featured/4.jpg" class="gallery-img">
+                        </div>
+                        <div class="featured-sub-status">
+                            <div class="status-primary">Early Access Now Available</div>
+                            <div class="status-secondary">Top Seller</div>
+                        </div>
+                        <div class="featured-sub-price">P449.95</div>
+                    </div>
+                </div>
+            </section>
+            <section class="special-offers">
+                <h2 class="section-header">
+                    Special Offers
+                    <span class="section-header-right">
+                        <a class="section-header-button">
+                            <span>Browse More</span>
+                        </a>
+                    </span>
+                </h2>
+                <div class="special-offers-grid">
+                    <div class="special-offers-column">
+                        <a class="big-capsule-container">
+                            <div class="capsule-header">
+                                <img src="images/special_offers/0.jpg" class="big-capsule-img">
+                            </div>
+                            <div class="big-capsule-footer">
+                                <div class="big-capsule-description">
+                                    <div class="big-capsule-title">Midweek Madness</div>
+                                    <div class="big-capsule-time">Offer ends 27 Feb @ 2:00am.</div>
+                                </div>
+                                <div class="big-capsule-discount">
+                                    <div class="discount-percentage">-50%</div>
+                                    <div class="price-container">
+                                        <div class="price-old">P744.95</div>
+                                        <div class="price-new">P372.47</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="special-offers-column">
+                        <a class="capsule-container">
+                            <div class="capsule-header">
+                                <img src="images/special_offers/1.jpg" class="capsule-img">
+                            </div>
+                            <div class="capsule-footer">
+                                <div class="capsule-description">
+                                    <div class="description-title">Today's deal!</div>
+                                    <div class="description-time">4 Days</div>
+                                </div>
+                                <div class="capsule-discount">
+                                    <div class="discount-percentage">-50%</div>
+                                    <div class="price-container">
+                                        <div class="price-old">P744.95</div>
+                                        <div class="price-new">P372.47</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </a>
+                        <a class="capsule-container">
+                            <div class="capsule-header">
+                                <img src="images/special_offers/2.jpg" class="capsule-img">
+                            </div>
+                            <div class="capsule-footer">
+                                <div class="capsule-description">
+                                    <div class="description-title">Today's deal!</div>
+                                    <div class="description-time">4 Days</div>
+                                </div>
+                                <div class="capsule-discount">
+                                    <div class="discount-percentage">-50%</div>
+                                    <div class="price-container">
+                                        <div class="price-old">P744.95</div>
+                                        <div class="price-new">P372.47</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="special-offers-column">
+                        <a class="capsule-container">
+                            <div class="capsule-header">
+                                <img src="images/special_offers/3.jpg" class="capsule-img">
+                            </div>
+                            <div class="capsule-footer">
+                                <div class="capsule-description">
+                                    <div class="description-title">Today's deal!</div>
+                                    <div class="description-time">4 Days</div>
+                                </div>
+                                <div class="capsule-discount">
+                                    <div class="discount-percentage">-50%</div>
+                                    <div class="price-container">
+                                        <div class="price-old">P744.95</div>
+                                        <div class="price-new">P372.47</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="capsule-container">
+                            <div class="capsule-header">
+                                <img src="images/special_offers/4.jpg" class="capsule-img">
+                            </div>
+                            <div class="capsule-footer">
+                                <div class="capsule-description">
+                                    <div class="description-title">Today's deal!</div>
+                                    <div class="description-time">4 Days</div>
+                                </div>
+                                <div class="capsule-discount">
+                                    <div class="discount-percentage">-50%</div>
+                                    <div class="price-container">
+                                        <div class="price-old">P744.95</div>
+                                        <div class="price-new">P372.47</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="community-recommends">
+                <h1 class="community-recommends-title">The Community Recommends</h1>
+                <h2 class="section-header">
+                    These Games Today
+                    <span class="section-header-right">
+                        <a class="section-header-button">
+                            <span>Customize, Explore, By Tag, & More</span>
+                        </a>
+                    </span>
+                </h2>
+                <div class="community-recommends-grid">
+                    <img src="images/community/amongus.jpg" class="community-recommends-img">
+                    <div class="community-recommends-review">
+                        <div class="review-text">
+                            <p>"This game made me turn to drinking my own bathwater at night and gargle with cat pee often )_) 10/10"</p>
+                        </div>
+                        <div class="review-author">
+                            <div class="author-name">Zer0</div>
+                            <div class="author-timeplayed">Played 72.4 hrs at review thing</div>
+                            <div class="author-reach">5 people found this review helpful</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="browse-steam">
+                <h2 class="section-header">Browse Steam</h2>
+                <div class="browse-steam-buttons">
+                    <a class="browse-steam-button space-right">New Releases</a>
+                    <a class="browse-steam-button space-right">Specials</a>
+                    <a class="browse-steam-button space-right">Free Games</a>
+                    <a class="browse-steam-button">By User Tags</a>
+                </div>
+            </section>
+            <section class="popular-vr-games">
+                <h2 class="section-header">
+                    Popular VR Games
+                    <span class="section-header-right">
+                        <a class="section-header-button">
+                            <span>Browse All</span>
+                        </a>
+                    </span>
+                </h2>
+                <div class="vr-capsule-container">
+                    <div class="vr-capsule space-right">
+                        <img src="images/vr/1.jpg" class="vr-capsule-img">
+                        <div class="vr-capsule-footer">
+                            <div class="vr-capsule-price">P449.96</div>
+                        </div>
+                    </div>
+                    <div class="vr-capsule space-right">
+                        <img src="images/vr/2.jpg" class="vr-capsule-img">
+                        <div class="vr-capsule-footer">
+                            <div class="vr-capsule-price">P449.96</div>
+                        </div>
+                    </div>
+                    <div class="vr-capsule space-right">
+                        <img src="images/vr/3.jpg" class="vr-capsule-img">
+                        <div class="vr-capsule-footer">
+                            <div class="vr-capsule-price">P449.96</div>
+                        </div>
+                    </div>
+                    <div class="vr-capsule">
+                        <img src="images/vr/4.jpg" class="vr-capsule-img">
+                        <div class="vr-capsule-footer">
+                            <div class="vr-capsule-price">P449.96</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class=""></section>
+            <section class="games-streaming-now">
+                <h2 class="section-header">
+                    Games Streaming Now
+                    <span>
+                        <a class="section-header-button">
+                            <span>View All</span>
+                        </a>
+                    </span>
+                </h2>
+            </section>
+            <section class="under-p400">
+                <h2 class="section-header">
+                    Under P400
+                    <span>
+                        <a class="section-header-button space-right">
+                            <span>Under P400</span>
+                        </a>
+                        <a class="section-header-button">
+                            <span>Under P200</span>
+                        </a>
+                    </span>
+                </h2>
+                <div class="underx-capsule-container">
+                    <div class="underx-capsule space-right">
+                        <img src="images/underx/1.jpg" class="underx-capsule-img">
+                        <div class="underx-capsule-footer">
+                            <div class="underx-capsule-price">P449.96</div>
+                        </div>
+                    </div>
+                    <div class="underx-capsule space-right">
+                        <img src="images/underx/2.jpg" class="underx-capsule-img">
+                        <div class="underx-capsule-footer">
+                            <div class="underx-capsule-price">P449.96</div>
+                        </div>
+                    </div>
+                    <div class="underx-capsule space-right">
+                        <img src="images/underx/3.jpg" class="underx-capsule-img">
+                        <div class="vr-capsule-footer">
+                            <div class="underx-capsule-price">P449.96</div>
+                        </div>
+                    </div>
+                    <div class="underx-capsule">
+                        <img src="images/underx/4.jpg" class="underx-capsule-img">
+                        <div class="underx-capsule-footer">
+                            <div class="underx-capsule-price">P449.96</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="updates-and-offers">
+                <h2 class="section-header">Updates and Offers</h2>
+            </section>
+            <footer></footer>
+        </div>
+        <div class="item"></div>
     </div>
 </body>
 </html>

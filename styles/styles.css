@@ -1,0 +1,11 @@
+html, body {
+    margin: 0;
+    background-color: #B8B6B4;
+    background-image: linear-gradient(#1B384D, #1A2838);
+    font-family: motiva-sans, sans-serif;
+    font-size: 14px;
+}
+
+.space-right {
+    margin-right: 8px;
+}

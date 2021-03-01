@@ -1,0 +1,28 @@
+section {
+    margin-top: 40px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: normal;
+}
+
+.section-header-button {
+    border-radius: 2px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 0 15px;
+    color: #fff;
+    background: transparent;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+}
+
+.secion-header-button span {
+    font-size: 12px;
+    line-height: 20px;
+}

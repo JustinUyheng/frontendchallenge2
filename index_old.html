@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Challenge #2</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="carousel.css">
+</head>
+<body>
+    <div class="header">
+        <nav class="nav-big">
+            <img src="/images/logo.png" class="logo">
+            <a href="#" class="dropdown">Store</a>
+            <div class="dropdown-content">
+                <a href="#">Home</a>
+                <a href="#">Discovery Queue</a>
+                <a href="#">Wishlist</a>
+                <a href="#">Points Shop</a>
+                <a href="#">News</a>
+                <a href="#">Stats</a>
+            </div>
+            
+            <a href="#" class="dropdown">Community</a>
+            <div class="dropdown-content">
+                <a href="#">Home</a>
+                <a href="#">Discussions</a>
+                <a href="#">Workshop</a>
+                <a href="#">Market</a>
+                <a href="#">Broadcasts</a>
+            </div>
+
+            <a href="#">About</a>
+            <a href="#">Support</a>    
+        </nav>
+    </div> 
+    <div class="page-content">
+        <div class="jumbotron">
+            <video autoplay muted loop id="featuredVideo">
+                <source src="images/webm_page_bg_english.webm" type="video/webm">
+            </video>
+            <div class="container">
+                <nav class="nav-small">
+                    <button>Your Store</button>
+                    <button>Browse</button>
+                    <button>Points Shop</button>
+                    <button>News</button>
+                    <button>Steam Labs</button>
+                    <div class="space"></div>
+                    <input type="text" placeholder="search the store" class="search">
+                </nav>
+            </div>
+        </div>
+        <div class="layout">
+            <div class="sidebar">
+                <img src="images/steamcards_promo_02.png" class="sidebar-promo">
+                <div class="sidebar-header">Gift Cards</div>
+                <div class="sidebar-items"><a href="#">Now Available on Steam</a></div>
+                
+                <div class="sidebar-header">Recommended</div>
+                <div class="sidebar-items"><a href="#">By Friends</a></div>
+                <div class="sidebar-items"><a href="#">By Curators</a></div>
+                <div class="sidebar-items"><a href="#">Tags</a></div>
+                
+                <div class="sidebar-header">Discovery Queues</div>
+                <div class="sidebar-items"><a href="#">Recommendations</a></div>
+                <div class="sidebar-items"><a href="#">New Releases</a></div>
+                
+                <div class="sidebar-header">Browse Categories</div>
+                <div class="sidebar-items"><a href="#">Top Sellers</a></div>
+                <div class="sidebar-items"><a href="#">New Releases</a></div>
+                <div class="sidebar-items"><a href="#">Upcoming</a></div>
+                <div class="sidebar-items"><a href="#">Specials</a></div>
+                <div class="sidebar-items"><a href="#">Virtual Reality</a></div>
+                <div class="sidebar-items"><a href="#">Controller Friendly</a></div>
+                
+                <div class="sidebar-header">Browse by Genre</div>
+                <div class="sidebar-items"><a href="#">Free to Play</a></div>
+                <div class="sidebar-items"><a href="#">Early Access</a></div>
+                <div class="sidebar-items"><a href="#">Action</a></div>
+                <div class="sidebar-items"><a href="#">Adventure</a></div>
+                <div class="sidebar-items"><a href="#">Casual</a></div>
+                <div class="sidebar-items"><a href="#">Indie</a></div>
+                <div class="sidebar-items"><a href="#">Massively Multiplayer</a></div>
+                <div class="sidebar-items"><a href="#">Racing</a></div>
+                <div class="sidebar-items"><a href="#">RPG</a></div>
+                <div class="sidebar-items"><a href="#">Simulation</a></div>
+                <div class="sidebar-items"><a href="#">Sports</a></div>
+                <div class="sidebar-items"><a href="#">Strategy</a></div>
+            </div>
+            <div class="main-content">
+                <section class="carousel" aria-label="Gallery">
+                    <ol class="carousel__viewport">
+                      <li id="carousel__slide1"
+                          tabindex="0"
+                          class="carousel__slide">
+                        <div class="carousel__snapper">
+                          <a href="#carousel__slide4"
+                             class="carousel__prev">Go to last slide</a>
+                          <a href="#carousel__slide2"
+                             class="carousel__next">Go to next slide</a>
+                        </div>
+                      </li>
+                      <li id="carousel__slide2"
+                          tabindex="0"
+                          class="carousel__slide">
+                        <div class="carousel__snapper"></div>
+                        <a href="#carousel__slide1"
+                           class="carousel__prev">Go to previous slide</a>
+                        <a href="#carousel__slide3"
+                           class="carousel__next">Go to next slide</a>
+                      </li>
+                      <li id="carousel__slide3"
+                          tabindex="0"
+                          class="carousel__slide">
+                        <div class="carousel__snapper"></div>
+                        <a href="#carousel__slide2"
+                           class="carousel__prev">Go to previous slide</a>
+                        <a href="#carousel__slide4"
+                           class="carousel__next">Go to next slide</a>
+                      </li>
+                      <li id="carousel__slide4"
+                          tabindex="0"
+                          class="carousel__slide">
+                        <div class="carousel__snapper"></div>
+                        <a href="#carousel__slide3"
+                           class="carousel__prev">Go to previous slide</a>
+                        <a href="#carousel__slide1"
+                           class="carousel__next">Go to first slide</a>
+                      </li>
+                    </ol>
+                    <aside class="carousel__navigation">
+                      <ol class="carousel__navigation-list">
+                        <li class="carousel__navigation-item">
+                          <a href="#carousel__slide1"
+                             class="carousel__navigation-button">Go to slide 1</a>
+                        </li>
+                        <li class="carousel__navigation-item">
+                          <a href="#carousel__slide2"
+                             class="carousel__navigation-button">Go to slide 2</a>
+                        </li>
+                        <li class="carousel__navigation-item">
+                          <a href="#carousel__slide3"
+                             class="carousel__navigation-button">Go to slide 3</a>
+                        </li>
+                        <li class="carousel__navigation-item">
+                          <a href="#carousel__slide4"
+                             class="carousel__navigation-button">Go to slide 4</a>
+                        </li>
+                      </ol>
+                    </aside>
+                </section>
+                <div class="cluster-1">
+                    <div>
+                        <h2 class="cluster-header">Featured and Recommended</h2>
+                    </div>
+                </div>
+                <div class="cluster-2">
+                    <div>
+                        <h2 class="cluster-header">Special Offers</h2>
+                    </div>
+                </div>
+                <div class="cluster-3">
+                    <div>
+                        <h2 class="cluster-header"></h2>
+                    </div>
+                </div>
+                <div class="cluster-4">
+                    <div class="button-cluster-container">
+                        <h2 class="cluster-header">Browse Steam</h2>
+                        <div class="button-cluster">
+                            <button class="button-big"><a>New Releases</a></button>
+                            <button class="button-big"><a>Specials</a></button>
+                            <button class="button-big"><a>Free Games</a></button>
+                            <button class="button-big"><a>By User Tags</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cluster-5">
+                    <div>
+                        <h2 class="cluster-header">Popular VR Games</h2>
+                    </div>
+                </div>
+                <div class="cluster-6">
+                    <div>
+                        
+                    </div>
+                </div>
+                <div class="cluster-7">
+                    <div>
+                        <h2 class="cluster-header">Games Streaming Now</h2>
+                    </div>
+                </div>
+                <div class="cluster-8">
+                    <div>
+                        <h2 class="cluster-header">Under P400</h2>
+                    </div>
+                </div>
+                <div class="cluster-9">
+                    <div>
+                        <h2 class="cluster-header">Updates and Offers</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

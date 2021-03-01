@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    height: 100vh;
+    width: 500px;
+}
+
+.item-left {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.item-center {
+    flex-grow: 1;
+    justify-content: center;
+}

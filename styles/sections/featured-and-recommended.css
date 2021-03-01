@@ -1,0 +1,78 @@
+.featured-and-recommended {
+    height: 353px;
+    margin-bottom: 100px;
+}
+
+.featured-and-recommended-grid {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 67% 33%;
+}
+
+.featured-main {
+    height: 100%;
+}
+
+.featured-main-img {
+    height: 100%;
+    width: 100%;
+}
+
+.featured-sub {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #0B151E;
+}
+
+.featured-sub-title {
+    display: flex;
+    height: 69px;
+    padding: 0px 6px 0px 6px;
+    color: #ffffff;
+    font-weight: 300;
+    align-items: center;
+}
+
+.title-text {
+    padding-bottom: 4px;
+    padding-top: 4px;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.featured-sub-gallery {
+    height: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+}
+
+.gallery-img {
+    height: 79px;
+    width: auto;
+}
+
+.featured-sub-status {
+    color: #ffffff;
+}
+
+.status-primary {
+    padding: 6px 10px 0px 0px;
+    font-weight: 300;
+    font-size: 21px;
+}
+
+.status-secondary {
+    width: 62px;
+    margin: 3px 2px 3px 0px;
+    padding: 0px 7px;
+    font-size: 11px;
+    background-color: #ffffff33;
+}
+
+.featured-sub-price {
+    padding: 0px 0px 12px 0px;
+    color: #ACDBF5;
+}
