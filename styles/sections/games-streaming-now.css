@@ -1,0 +1,45 @@
+.games-streaming-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    border: solid 1px red;
+}
+
+.games-streaming-capsule {
+    height: 207px;
+    width: 297px;
+    background: rgba(255,255,255,0.1);
+}
+
+.games-streaming-spacer {
+    margin-right: 5px;
+    margin-bottom: 8px;
+}
+
+.games-streaming-header {
+    height: 142px;
+    width: 100%;
+}
+
+.games-streaming-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 33px;
+    margin-left: 5px;
+    padding-bottom: 6px;
+    color: #c7d5e0;
+}
+
+.games-title {
+    line-height: 23px;
+    font-size: 13px;
+    padding: 3px;
+}
+
+.games-viewer {
+    margin: 0px 5px 0px 8px;
+    padding-left: 28px;
+    line-height: 27px;
+}
