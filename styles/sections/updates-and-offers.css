@@ -3,12 +3,15 @@
 }
 
 .updates-and-offers-grid {
-    height: 398px;
+    height: 422px;
     display: grid;
-    grid-template-columns: 2fr 3fr ;
+    grid-template-columns: 2fr 3fr;
+    overflow: hidden;
 }
 
 .updates-and-offers-capsule {
+    display: flex;
+    flex-direction: column;
     color: #ACDBF5;
     font-size: 11px;
     background: linear-gradient(135deg, rgba(37,49,63,1) 5%,rgba(54,97,125,1) 95%);
@@ -16,6 +19,7 @@
 
 .updates-and-offers-subgrid {
     display: grid;
+    justify-content: space-evenly;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
@@ -25,5 +29,44 @@
 }
 
 .updates-and-offers-spacerbot {
-    margin: 0 0 0px 10px;
+    margin: 0 0 10px 10px;
 }
+
+.updates-and-offers-big-img {
+    height: 398px;
+    width: 100%;
+}
+
+.updates-and-offers-small-img {
+    height: 185px;
+    width: 100%;   
+}
+
+.updates-and-offers-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 4px;
+    font-size: 10px;
+}
+
+.updates-and-offers-discount-percentage {
+    background-color: #4C6B22;
+    color: #A4D006;
+    text-align: center;
+  }
+
+.updates-and-offers-price {
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    background-color: #344554;
+}
+
+.updates-and-offers-price-old {
+    text-decoration: line-through;
+    color: #7193A6;
+  }
+  
+.updates-and-offers-price-new {
+    color: #ACDBF5;
+  }

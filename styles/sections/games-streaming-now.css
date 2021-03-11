@@ -20,6 +20,18 @@
 .games-streaming-header {
     height: 142px;
     width: 100%;
+    position: relative;
+}
+
+.games-streaming-img {
+    height: 100%;
+    width: 100%;
+}
+
+.play-button {
+    position: absolute;
+    padding: 18% 36%;
+    z-index: 1;
 }
 
 .games-streaming-footer {

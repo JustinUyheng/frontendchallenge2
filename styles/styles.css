@@ -9,3 +9,7 @@ html, body {
 .space-right {
     margin-right: 8px;
 }
+
+.container {
+    display: flex;
+}
