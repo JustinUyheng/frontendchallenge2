@@ -1,24 +1,35 @@
 .sidebar {
-    width: 200px;
-    margin-top: 30px;
+    width: 220px;
+    margin: 10px 20px 0 0;
 }
 
-.sidebar-promo {
+.sidebar li {
+    padding: 2.5px 0;
+}
+
+.sidebar__content {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar__promo {
     width: 100%;
 }
 
-.sidebar-header {
-    padding: 8px;
-    color: white;
+.sidebar__list {
+    padding: 0;
+}
+
+.sidebar__header {
+    margin: 0;
+    color: #C6D4DF;
     text-transform: uppercase;
     font-size: 12px;
+    font-weight: normal;
 }
 
-.sidebar-items {
-    padding: 6px 8px;
-}
-
-.sidebar-items a {
-    color: #60B6E8;
+.sidebar__link {
+    color: #66C0F4;
     text-decoration: none;
+    font-size: 12px;
 }

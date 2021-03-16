@@ -23,81 +23,95 @@
 <body>
     <div class="container">
         <header>
-            <img src="/images/logo.png" class="logo">
-            <nav>
-                <a href="#" class="dropdown">Store</a>
-                <div class="dropdown-content">
-                    <a href="#">Home</a>
-                    <a href="#">Discovery Queue</a>
-                    <a href="#">Wishlist</a>
-                    <a href="#">Points Shop</a>
-                    <a href="#">News</a>
-                    <a href="#">Stats</a>
-                </div>
-                
-                <a href="#" class="dropdown">Community</a>
-                <div class="dropdown-content">
-                    <a href="#">Home</a>
-                    <a href="#">Discussions</a>
-                    <a href="#">Workshop</a>
-                    <a href="#">Market</a>
-                    <a href="#">Broadcasts</a>
-                </div>
-    
-                <a href="#">About</a>
-                <a href="#">Support</a>    
+            <img src="/images/logo.png" class="header__logo" alt="Steam logo">
+            <nav class="header__nav">
+                <ul class="header__links">
+                    <li><a href="#" class="header__link">Store</a></li>
+                    <li><a href="#" class="header__link">Community</a></li>
+                    <li><a href="#" class="header__link">About</a></li>
+                    <li><a href="#" class="header__link">Support</a></li>
+                </ul> 
             </nav>
         </header>
         <div class="page-content">
             <div class="item item-left">
                 <aside class="sidebar">
-                    <img src="images/steamcards_promo_02.png" class="sidebar-promo">
-                    <div class="sidebar-header">Gift Cards</div>
-                    <div class="sidebar-items"><a href="#">Now Available on Steam</a></div>
-                    
-                    <div class="sidebar-header">Recommended</div>
-                    <div class="sidebar-items"><a href="#">By Friends</a></div>
-                    <div class="sidebar-items"><a href="#">By Curators</a></div>
-                    <div class="sidebar-items"><a href="#">Tags</a></div>
-                    
-                    <div class="sidebar-header">Discovery Queues</div>
-                    <div class="sidebar-items"><a href="#">Recommendations</a></div>
-                    <div class="sidebar-items"><a href="#">New Releases</a></div>
-                    
-                    <div class="sidebar-header">Browse Categories</div>
-                    <div class="sidebar-items"><a href="#">Top Sellers</a></div>
-                    <div class="sidebar-items"><a href="#">New Releases</a></div>
-                    <div class="sidebar-items"><a href="#">Upcoming</a></div>
-                    <div class="sidebar-items"><a href="#">Specials</a></div>
-                    <div class="sidebar-items"><a href="#">Virtual Reality</a></div>
-                    <div class="sidebar-items"><a href="#">Controller Friendly</a></div>
-                    
-                    <div class="sidebar-header">Browse by Genre</div>
-                    <div class="sidebar-items"><a href="#">Free to Play</a></div>
-                    <div class="sidebar-items"><a href="#">Early Access</a></div>
-                    <div class="sidebar-items"><a href="#">Action</a></div>
-                    <div class="sidebar-items"><a href="#">Adventure</a></div>
-                    <div class="sidebar-items"><a href="#">Casual</a></div>
-                    <div class="sidebar-items"><a href="#">Indie</a></div>
-                    <div class="sidebar-items"><a href="#">Massively Multiplayer</a></div>
-                    <div class="sidebar-items"><a href="#">Racing</a></div>
-                    <div class="sidebar-items"><a href="#">RPG</a></div>
-                    <div class="sidebar-items"><a href="#">Simulation</a></div>
-                    <div class="sidebar-items"><a href="#">Sports</a></div>
-                    <div class="sidebar-items"><a href="#">Strategy</a></div>
+                    <img src="images/steamcards_promo_02.png" class="sidebar__promo" alt="Steam gift cards">
+                    <ul class="sidebar__content">
+                        <li>
+                            <ul class="sidebar__list">
+                                <li><h3 class="sidebar__header">Gift cards</h3></li>
+                                <li><a href="#" class="sidebar__link">Now Available on Steam</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="sidebar__list">
+                                <li><h3 class="sidebar__header">Recommended</h3></li>
+                                <li><a href="#" class="sidebar__link">By Friends</a></li>
+                                <li><a href="#" class="sidebar__link">By Curators</a></li>
+                                <li><a href="#" class="sidebar__link">Tags</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="sidebar__list">
+                                <li><h3 class="sidebar__header">Discovery Queues</h3></li>
+                                <li><a href="#" class="sidebar__link">Recommendations</a></li>
+                                <li><a href="#" class="sidebar__link">New Releases</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="sidebar__list">
+                                <li><h3 class="sidebar__header">Browse Categories</h3></li>
+                                <li><a href="#" class="sidebar__link">Top Sellers</a></li>
+                                <li><a href="#" class="sidebar__link">New Releases</a></li>
+                                <li><a href="#" class="sidebar__link">Upcoming</a></li>
+                                <li><a href="#" class="sidebar__link">Specials</a></li>
+                                <li><a href="#" class="sidebar__link">Virtual Reality</a></li>
+                                <li><a href="#" class="sidebar__link">Controller Friendly</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="sidebar__list">
+                                <li><h3 class="sidebar__header">Browse by Genre</h3></li>
+                                <li><a href="#" class="sidebar__link">Free to Play</a></li>
+                                <li><a href="#" class="sidebar__link">Early Access</a></li>
+                                <li><a href="#" class="sidebar__link">Action</a></li>
+                                <li><a href="#" class="sidebar__link">Adventure</a></li>
+                                <li><a href="#" class="sidebar__link">Casual</a></li>
+                                <li><a href="#" class="sidebar__link">Indie</a></li>
+                                <li><a href="#" class="sidebar__link">Massively Multiplayer</a></li>
+                                <li><a href="#" class="sidebar__link">Racing</a></li>
+                                <li><a href="#" class="sidebar__link">RPG</a></li>
+                                <li><a href="#" class="sidebar__link">Simulation</a></li>
+                                <li><a href="#" class="sidebar__link">Sports</a></li>
+                                <li><a href="#" class="sidebar__link">Strategy</a></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </aside>
             </div>
             <div class="item item-center">
-                <nav class="main-nav">
-                    <div class="main-nav-buttons">
-                        <button>Your Store</button>
-                        <button>Browse</button>
-                        <button>Points Shop</button>
-                        <button>News</button>
-                        <button>Steam Labs</button>
-                    </div>
-                    <input type="text" placeholder="search the store" class="searchbar">
+                <nav class="nav">
+                    <ul class="nav__links">
+                        <li><a href="#" class="nav__link">Your Store</a></li>
+                        <li><a href="#" class="nav__link">Browse</a></li>
+                        <li><a href="#" class="nav__link">Points Shop</a></li>
+                        <li><a href="#" class="nav__link">News</a></li>
+                        <li><a href="#" class="nav__link">Steam Labs</a></li>
+                    </ul>
+                    <form action="/form/submit" method="GET" class="nav__form">
+                        <input type="text" class="nav__search" placeholder="search the store">
+                    </form>
                 </nav>
+
+                <!-- use link for anything clickable -->
+                <!-- don't use div to represent text -->
+                <!-- use proper nesting of elements -->
+                <!-- make better use of grid -->
+                <!-- use alt text for images -->
+                <!-- add placeholders for links -->
+                <!-- overlay repetitive items with css pseudo-elements -->
+
                 <section class="featured-and-recommended">
                     <h2 class="section-header">Featured and Recommended</h2>
                     <div class="featured-and-recommended-grid">
@@ -108,6 +122,7 @@
                             <div class="featured-sub-title">
                                 <div class="title-text">Valheim</div>
                             </div>
+
                             <div class="featured-sub-gallery">
                                 <img src="images/featured/1.jpg" class="gallery-img">
                                 <img src="images/featured/2.jpg" class="gallery-img">

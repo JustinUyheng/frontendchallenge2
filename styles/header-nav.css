@@ -8,17 +8,21 @@ header {
     
 }
 
-header img {
+ul {
+    list-style-type: none;
+}
+
+.header__logo {
     height: 45px;
     margin-left: 500px;
 }
 
-header a {
+.header__links {
+    display: flex;
+}
+
+.header__link {
     padding: 0px 8px;
     color: #B8B6B4;
     text-decoration: none;
-}
-
-header .dropdown-content {
-    display: none;
 }
