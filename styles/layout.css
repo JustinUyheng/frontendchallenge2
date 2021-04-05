@@ -9,7 +9,7 @@
 }
 
 .item {
-    width: 500px;
+    width: 940px;
 }
 
 .item-left {
@@ -19,5 +19,6 @@
 
 .item-center {
     flex-grow: 1;
+    flex-basis: auto;
     justify-content: center;
 }

@@ -10,9 +10,8 @@
 
 
 .community-recommends-grid {
-    height: 350px;
     display: grid;
-    grid-template-columns: 67% 33%;
+    grid-template-columns: 2fr 1fr;
     box-shadow: #000000;
 }
 
