@@ -10,11 +10,18 @@
     background-color: #FFFFFF1A;
 }
 
-.games-streamin-now .card__header:before {
-    content: url("images/games_streaming_now/play_icon80.png");
-    z-index: 2;
-    color: white;
-    /* border: solid 1px red; */
+.games-streaming-now .card__header {
+    position: relative;
+}
+
+.games-streaming-now .card__header::before {
+    content: "";
+    background: red;
+    display: block;
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    /* background: url("images/games_streaming_now/play_icon80.png"); */
 }
 
 .games-streaming-now .card__footer {
